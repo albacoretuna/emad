@@ -1,0 +1,56 @@
+
+/*////////// GENERAL //////////*/
+body{
+  padding: 0;
+  margin: 0;
+  background: #cccccc url(images/index.jpg) no-repeat center top;
+  display: table;
+  width: 100%;
+  height:100%;
+  font-family:     trajan pro,Droid Serif ,garamond,minion pro, poor richard;
+}
+#indextext {
+    position: absolute;
+	left: 12%;
+	top:45%;
+	color:#FFF;
+
+}
+#indexname{
+	font-weight: 100;
+padding-bottom: 0;
+margin-bottom: 0;
+}
+#indexlinks{
+padding-top: 0;
+margin-top: 0;
+position: absolute;
+left: 59%;
+list-style-type: none;
+
+}
+#indexlinks a, #indexlinks a:visited,  #indexlinks a:hover{
+	font-weight: 100;
+
+text-decoration: none;
+color: #FFF;
+
+}
+
+
+#copyright{
+color:#888;
+position: absolute;
+bottom: 0px;
+right: 10px;
+height: 20px;
+z-index:5;
+font-size:0.6em;
+}
+
+#copyright a:link, #copyright a:visited {
+/*padding: 0.4em 1em 0.4em 1em;*/
+color: #999;
+text-decoration: none;
+font-size: 1.1em;
+}

@@ -1,0 +1,47 @@
+
+/*////////// Style for other pages //////////*/
+body{
+  padding: 0;
+  margin: 0;
+  font-family:     trajan pro, Droid Serif ,garamond, minion pro, poor richard;
+  color: #000;
+}
+#content{
+margin-top: 3em;
+margin-left: 3em;
+
+}
+#emadphoto{
+margin: 1em;
+border: 0.5em solid gray;
+}
+ a {
+color: #999;
+}
+a:visited{
+color: #999;
+}
+
+#backtohome a, #backtohome a:visited {
+color: #999;
+margin-left: 1em;
+margin-top: 1em;
+
+}
+
+#copyright{
+color:#888;
+position: fixed;
+bottom: 0px;
+right: 10px;
+height: 20px;
+z-index:5;
+font-size:0.6em;
+}
+
+#copyright a:link, #copyright a:visited {
+/*padding: 0.4em 1em 0.4em 1em;*/
+color: #999;
+text-decoration: none;
+font-size: 1.1em;
+}
