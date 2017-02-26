@@ -25,8 +25,6 @@ body{
 #indexlinks{
   padding-top: 0;
   margin-top: 0;
-  position: absolute;
-  left: 59%;
   list-style-type: none;
 
 }
@@ -34,20 +32,27 @@ body{
 /* MOBILE -------------------- */
 @media screen and (max-width: 480px) {
   #indextext {
-    padding-top: 20vh;
-    padding-left: 50px;
+    padding-top: 0;
+    padding-left: 0;
     color: #FFF;
-    font-size: 1.5em;
+    top: 20vh;
+    left: 20px;
   }
   #indexname{
     font-weight: 100;
     padding-bottom: 0;
     margin-bottom: 0;
+    font-size: 25px;
   }
   #indexlinks{
-    padding-top: 0;
+    position: relative;
+    left: 0;
     margin-top: 0;
-    font-size: 32px;
+    padding-left: 10px;
+    font-size: 15px;
+  }
+  #indexlinks > li{
+    padding: 5px;
   }
 }
 /* ./MOBILE ------------------------ */
